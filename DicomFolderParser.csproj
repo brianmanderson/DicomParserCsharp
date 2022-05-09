@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PackageId>BMAnderson.Util.DicomFolderParser</PackageId>
+    <Authors>Brian Mark Anderson</Authors>
+    <Company />
+    <Description>A simple parser designed to identify the unique DICOM files associated with a particular series instance UID. Leverages SimpleITK for speed and funtionality.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\SimpleITK\SimpleITKCSharpNative.dll" Link="SimpleITKCSharpNative.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SimpleITKCSharpManaged">
+      <HintPath>..\SimpleITK\SimpleITKCSharpManaged.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
