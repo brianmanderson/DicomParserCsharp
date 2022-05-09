@@ -8,6 +8,11 @@
     <Company />
     <Description>A simple parser designed to identify the unique DICOM files associated with a particular series instance UID. Leverages SimpleITK for speed and funtionality.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/brianmanderson/DicomParserCsharp</RepositoryUrl>
+    <PackageTags>DICOM</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

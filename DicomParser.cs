@@ -4,7 +4,7 @@ using itk.simple;
 
 namespace DicomFolderParser
 {
-    class DicomParser
+    public class DicomParser
     {
         public Dictionary<string, VectorString> series_instance_uids = new Dictionary<string, VectorString>();
         public DicomParser()
